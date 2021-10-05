@@ -1,1 +1,1 @@
-<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/CBot-official/CBot-Tcl">
+<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/CBot-official/CBot-Tcl"><img alt="GitHub all releases" src="https://img.shields.io/github/downloads/CBot-official/CBot-tcl/total">
