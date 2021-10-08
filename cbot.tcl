@@ -24,22 +24,22 @@
 ### Start of configuration ###
 
 ## Bot nick.
-set botnick "CBot"
+set BNICK "CBot"
 
 ## Bot ident.
-set botident "CBot"
+set BIDENT "CBot"
 
 ## Bot realname.
-set botreal "CBot"
+set BREAL "CBot"
 
 ## Bot server.
-set server "irc.address.org"
+set BSERVER "irc.address.org"
 
 ## Bot port.
-set port "+6697"
+set BPORT "+6697"
 
 ## Bot admin.
-set admin "Your-nick"
+set ADMIN "Your-nick"
 
 ### End of configuration ###
 
@@ -62,10 +62,10 @@ proc ircsplit str {
 }
 
 package require http
-package require tls
+package require
 
-if {[string index $::port 0] == "+"} {
- set sockChan [tls::socket $::server $::port]
+if {[string index $::BPORT 0] == "+"} {
+ set sockChan [tls::socket $::server $::porjt]
 } else {
  set sockChan [socket $::server $::port]
 }
