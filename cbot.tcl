@@ -9,6 +9,7 @@ fconfigure $sockChan -translation crlf -buffering line
 
 puts $sockChan "NICK $::BotNick"
 puts $sockChan "USER $::BotIdent * * :$::BotRealname"
+set connected 1
 
 while {![eof $sockChan]} {
 	set line [gets $sockChan]
