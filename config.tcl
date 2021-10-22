@@ -29,23 +29,28 @@ set BotAlt "CBot-Tcl-"
 set BotIdent "CBot-Tcl"
 
 ###
-# Bot realname.
+# Bot's realname.
 ##
 set BotRealname "CBot-Tcl"
 
 ### 
-# Bot server.
+# Bot's server.
 ##
 set BotServer "irc.address.org"
 
 ###
-# Bot port.
+# Bot's port.
 ##
 set BotPort 6667
 
 ###
-# Bot channel.
+# Bot's channel.
 ##
 set BotHome "#CBot"
+
+###
+# Bot's Admin nick.
+##
+set BotAdmin "Your-nick"
 
 ### End of configuration ###
