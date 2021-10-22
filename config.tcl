@@ -26,17 +26,17 @@ set BotAlt "CBot-Tcl-"
 ###
 # Bot's ident.
 ##
-set BotIdent "CBot-Python"
+set BotIdent "CBot-Tcl"
 
 ###
 # Bot realname.
 ##
-set BotRealname "CBot-Python"
+set BotRealname "CBot-Tcl"
 
 ### 
 # Bot server.
 ##
-set BotServer "IRC.irchighway.net"
+set BotServer "irc.address.org"
 
 ###
 # Bot port.
